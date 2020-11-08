@@ -27,3 +27,33 @@ h6 {
   color: var(--mainYellow);
   font-size: 2rem;
 }
+.default-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(255, 158, 9, 0.5), rgb(255, 158, 9, 0.5));
+  background-position: center;
+  background-size: cover;
+}
+.about-background {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(255, 158, 9, 0.5), rgb(255, 158, 9, 0.5));
+  background-position: center;
+  background-size: cover;
+}
+.btn-yellow {
+  color: black;
+  border-color: black;
+}
+.btn-yellow {
+  background: white;
+}
+.footer {
+  
+  background: burlywood;
+}
+
